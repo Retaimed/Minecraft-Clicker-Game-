@@ -1,0 +1,118 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #696969;
+  background-image:url(https://www.tynker.com/minecraft/api/block?id=5b9a873ac762c14baf5c9ab2&w=400&h=400&width=400&height=400&mode=contain&format=jpg&quality=75&cache=max&v=1536853850);
+  background-size: 80px;                     
+  background-repeat: repeat;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Float 4 columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #fcfcfc;
+  background-image:url(https://d31sxl6qgne2yj.cloudfront.net/wordpress/wp-content/uploads/20190121140612/Minecraft-Bricks.jpg);
+  background-size: 275px;
+  background-repeat: repeat;
+  background-position: calc(100% - 0px) center;
+  bottom:250px;
+  width:700px;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #fcfcfc;
+  background-image:url(https://i.pinimg.com/originals/e9/90/4c/e9904cdb30314092a60f1ec18711bbbf.jpg);
+  background-size: 108px;                     
+  background-repeat: repeat;
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  text-align: center;
+  background-color: #fcfcfc;
+  background-image:url(./Screen\ Shot\ 2022-08-04\ at\ 9.51.02\ AM.jpg);
+  background-size: 109px; 
+  background-repeat: repeat;
+}
+
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #fcfcfc;
+  background-image:url(./Screen\ Shot\ 2022-08-04\ at\ 9.47.50\ AM.jpg);
+  background-size: 108px;                     
+  background-repeat: repeat;
+}
+
+.card4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #fcfcfc;
+  background-image:url(./Screen\ Shot\ 2022-08-03\ at\ 11.51.26\ AM.jpg);
+  background-size: 108px;                     
+  background-repeat: repeat;
+  
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#box1, #box2{
+	width:200px;
+	height:400px;
+	margin:10px;
+	padding:10px;
+}
+
+#box1 {
+	background:#333333;
+  text-align: center;
+}
+
+.nohigh {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.nohigh::selection {
+  background: transparent;
+}
+
+.total {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 50px;
+  text-align: center;
+  background-color: #333333;
+  position:absolute;
+  right: 0px;
+  top:175px;
+  width:200px;
+	height:400px;
+	margin:10px;
+}
